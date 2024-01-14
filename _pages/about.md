@@ -16,4 +16,4 @@ Previously, I worked as a Pre-Doctoral Fellow for [Professor Amy Finkelstein](ht
 
 My CV is available [here](/files/pdf/Norwich_CV_07-2023.pdf).
 
-You can reach me at [inorwich@uchicago.edu](inorwich@uchicago.edu) or through any of the sidebar links to the left.
+You can reach me at [inorwich@uchicago.edu](mailto:inorwich@uchicago.edu) or through any of the sidebar links to the left.
