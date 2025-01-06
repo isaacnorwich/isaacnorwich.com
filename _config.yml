@@ -225,7 +225,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-last-modified-at # Added GitHub action at .github/workflows/jekyll.yml
+  # - jekyll-last-modified-at # Doesn't work well with GitHub Pages
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate

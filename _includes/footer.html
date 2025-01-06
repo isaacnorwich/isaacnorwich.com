@@ -1,8 +1,8 @@
 {% include base_path %}
 
-<div class="page__footer-last-updated">
+<!-- <div class="page__footer-last-updated">
   <span style="font-size: 0.9em;">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</span>
-</div>
+</div> -->
 
 <div class="page__footer-follow">
   <ul class="social-icons">
@@ -25,4 +25,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated {{ "now" | date: "%B %-d, %Y" %}}
+</div>
