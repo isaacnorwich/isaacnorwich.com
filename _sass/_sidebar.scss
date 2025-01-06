@@ -84,7 +84,7 @@
 
   img {
     max-width: 200px;  // https://github.com/academicpages/academicpages.github.io/wiki/Customizing-the-layout-of-your-site
-    border-radius: 50%;
+    border-radius: 0%;
 
     @include breakpoint($large) {
       padding: 5px;
