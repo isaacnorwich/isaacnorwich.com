@@ -83,7 +83,7 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 200px;  // https://github.com/academicpages/academicpages.github.io/wiki/Customizing-the-layout-of-your-site
     border-radius: 50%;
 
     @include breakpoint($large) {
