@@ -19,7 +19,7 @@ jobs:
           ruby-version: '3.1'
 
       - name: Install dependencies
-        run: bundle install
+        run: gem update --system 3.2.3 && bundle install
 
       - name: Build the site
         run: bundle exec jekyll build
