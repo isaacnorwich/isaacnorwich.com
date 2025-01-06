@@ -1,6 +1,8 @@
 ---
 layout: archive
-#title: "Work in Progress"
+title: "Work in Progress"
+# hide:
+#   - title
 permalink: /research/
 author_profile: true
 sitemap: true
@@ -12,7 +14,7 @@ sitemap: true
 
 {% include base_path %}
 
-## Work in Progress
+<!-- ## Work in Progress -->
 
 The Labor Market Returns to Permanent Residency<br>
 *with [Kory Kroft](https://www.korykroft.com/), [Matthew Notowidigdo](https://users.nber.org/~notom/), and [Stephen Tino](https://stephentino.github.io/)*<br>
