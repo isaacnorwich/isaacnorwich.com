@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Ensure the token has write permissions
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -19,7 +22,7 @@ jobs:
           ruby-version: '3.1'
 
       - name: Install dependencies
-        run: gem update --system 3.2.3 && bundle install
+        run: bundle install
 
       - name: Build the site
         run: bundle exec jekyll build
