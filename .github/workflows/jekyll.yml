@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main  # Change this to your default branch if it's not 'main'
+      - master
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # Specify the Ruby version you need
+          ruby-version: '2.6'  # in terminal, check with ruby -v
 
       - name: Install dependencies
         run: bundle install
