@@ -17,14 +17,14 @@ sitemap: true
 -  **Macroeconomics (MBA)** for [Erik Hurst](https://erikhurst.com/)<br>
 *Autumn 2023 & Autumn 2025*
 
--   **Micro Data for Macro Models (PhD)** for [Erik Hurst](https://erikhurst.com/)<br>
-*Spring 2024*
+-   **Topics in Public and Labor Economics (PhD)** for [Evan Rose](https://ekrose.github.io/)<br>
+*Spring 2025*
 
 -   **Topics in Labor Markets: Earnings and Employment (PhD)** for [Thibaut Lamadon](https://www.lamadon.com/)<br>
 *Spring 2024 & Winter 2025*
 
--   **Topics in Public and Labor Economics (PhD)** for [Evan Rose](https://ekrose.github.io/)<br>
-*Spring 2025*
+-   **Micro Data for Macro Models (PhD)** for [Erik Hurst](https://erikhurst.com/)<br>
+*Spring 2024*
 
 <!-- {% for post in site.teaching reversed %}
   {% include archive-single.html %}

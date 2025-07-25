@@ -23,8 +23,8 @@ sitemap: true
   </em><br>
   <span style="font-size:.9rem;">
       <a href="#" onclick="return trackAndToggle('Abstract - Cohort-Chained DiD', 'ccdid');">Abstract</a> |
-      <a href="/files/pdf/CCDID.pdf"
-         onclick="return trackResearchAndNavigate('Draft - Cohort-Chained DiD', '/files/pdf/CCDID.pdf');">Draft</a>
+      <a href="https://pdfs.isaacnorwich.com/CCDID.pdf"
+         onclick="return trackResearchAndNavigate('Draft - Cohort-Chained DiD', this.href);">Draft</a>
   </span>
 </p>
 
