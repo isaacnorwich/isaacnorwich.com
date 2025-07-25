@@ -19,3 +19,46 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<!-- Track Clicks on Research Page -->
+<!-- https://chatgpt.com/s/t_6882ec2a699081919ae2be9253f7f3bb -->
+<!-- <script>
+    function trackResearchClick(label) {
+      gtag('event', 'click', {
+        event_category: 'Research',
+        event_label: label
+      });
+    }
+  </script> -->
+
+<script>
+function trackAndToggle(label, id) {
+    if (window.gtag) {
+    gtag('event', 'click', {
+        event_category: 'Research',
+        event_label: label
+    });
+    }
+    var el = document.getElementById(id);
+    var state = window.getComputedStyle(el).display;
+    el.style.display = (state === "none") ? "block" : "none";
+    return false;
+}
+</script>
+  
+
+<script>
+    function trackResearchAndNavigate(label, url) {
+      if (window.gtag) {
+        gtag('event', 'click', {
+          event_category: 'Research',
+          event_label: label
+        });
+      }
+      setTimeout(() => {
+        window.location.href = url;
+      }, 200);
+      return false; // cancel native <a> click
+    }
+  </script>
+

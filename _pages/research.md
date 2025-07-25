@@ -22,8 +22,9 @@ sitemap: true
       <a href="https://www.dballaelliott.com/" target="_blank">Dylan Balla‑Elliott</a>
   </em><br>
   <span style="font-size:.9rem;">
-      <a href="#/" onclick="visib('ccdid')">Abstract</a> |
-      <a href="/files/pdf/CCDID.pdf">Draft</a>
+      <a href="#" onclick="return trackAndToggle('Abstract - Cohort-Chained DiD', 'ccdid');">Abstract</a> |
+      <a href="/files/pdf/CCDID.pdf"
+         onclick="return trackResearchAndNavigate('Draft - Cohort-Chained DiD', '/files/pdf/CCDID.pdf');">Draft</a>
   </span>
 </p>
 
@@ -60,17 +61,3 @@ sitemap: true
 <!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
-
-[//]: This java script is the button to show abstract
-<script>
- function visib(id) {
-  var x = document.getElementById(id);
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
-
-[//]:&emsp;<button onclick="visib('polariz')" class="btn btn--inverse btn--small">Abstract</button>
