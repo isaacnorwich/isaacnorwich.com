@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Ph.D. candidate in the Department of Economics at the University of Chicago. 
+Welcome! I am a fifth-year Ph.D. candidate in the Department of Economics at the University of Chicago. 
 
 My research interests are broadly in labor and public economics.
 
